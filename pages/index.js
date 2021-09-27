@@ -4,7 +4,7 @@ import Title from "../components/Title";
 export default function HomePage() {
     return (
         <>
-            <Title title={"Welcome to CoinVerse"}/>
+            <Title title={"CoinVerse: Cryptocurrency Prices and News Updates..."}/>
             <Home/>
         </>
     )

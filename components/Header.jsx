@@ -26,11 +26,11 @@ const Header = () => {
             </div>
             <hr className={" dark:border-gray-700"}/>
 
-            <div className={"space-x-3 flex items-center max-w-7xl mx-auto py-3 px-5"}>
+            <div className={"space-x-5 sm:space-x-3 flex items-center max-w-7xl mx-auto py-3 px-5"}>
                 <Link href={"/"}>
                     <div className={"flex items-center cursor-pointer"}>
                         <img src={link} alt="" className={"cursor-pointer w-50 h-[45px] object-contain"}/>
-                        <h2 className={"ml-1 text-xl font-semibold dark:text-white"}>CoinVerse</h2>
+                        <h2 className={"ml-1 sm:ml-0 sm:text-xl font-semibold dark:text-white"}>CoinVerse</h2>
                     </div>
                 </Link>
 
